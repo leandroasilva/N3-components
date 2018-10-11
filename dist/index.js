@@ -26177,7 +26177,7 @@ exports.default = {
         if (_type2.default.isArray(this.currentValue) && this.range) {
           this.currentValue = [Math.min(this.tempValue[0], this.tempValue[1]), Math.max(this.tempValue[0], this.tempValue[1])];
         } else {
-          this.currentValue = this.tempValue[1];
+          this.currentValue = val;
         }
       }
     }
